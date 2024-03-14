@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Search</title>
+</head>
+<body>
+    <h1>News Search</h1>
+    <form action="/search" method="GET">
+        <label for="keyword">Keyword:</label>
+        <input type="text" id="keyword" name="keyword">
+        <button type="submit">Search</button>
+    </form>
+    <form action='/store_in_database' method="GET">
+        <button type="submit">Store in Database</button>
+    </form>
+</body>
+</html>
